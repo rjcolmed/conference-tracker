@@ -1,4 +1,4 @@
-const CONFERENCES = [{
+export const CONFERENCES = [{
   name: "auth0 conf",
   location: "Orlando, FL",
   date: "06/30/2018",
@@ -35,7 +35,3 @@ const CONFERENCES = [{
   CFPCompleted: false
 }
 ]
-
-const getMockData = () => CONFERENCES
-
-export default getMockData
